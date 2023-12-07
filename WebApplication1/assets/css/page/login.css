@@ -1,0 +1,47 @@
+.section-login
+{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* gap: 10rem; */
+
+}
+
+.div-1-login
+{
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    top: 4rem;
+}
+
+.google-login , .email-login
+{
+    display: flex;
+    padding-top: var(--pt-L1);
+    /* gap: var(--gap-L2); */
+}
+
+.icon-login
+{
+    position: relative;
+    left: var(--left-L2);
+}
+
+.link-login > b , .top-div-identifier > p
+{
+    opacity: 0.5;
+}
+.link-login
+{
+    padding-top: var(--pt-L1);
+}
+
+
+/* .img-login > img
+{
+    width: 102rem;
+} */

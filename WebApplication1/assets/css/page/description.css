@@ -1,0 +1,177 @@
+.btn-primary
+{
+    border-radius: var(--rounded-5px);
+    width: var(--w-100px);
+    background-color: var(--btn-secondary);
+    
+}
+
+.size-select
+{
+    height: 40px;
+    border-radius: var(--rounded-5px);
+
+}
+
+/* header */
+.panier,.log
+{
+    height: 40px;
+    width: 40px;
+}
+
+
+.header-description
+{
+    background-color: #C5DFEE;
+    background-repeat: no-repeat;
+    height: 5rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* article 1 */
+.article-1
+{
+    background-image: url(../../img/body/description-produit/article-1/bg-art1.png);
+    padding-left: var(--5-pourcents);
+    background-size: cover;
+    height: 48rem;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 20px;
+}
+
+.top-article-1
+{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: var(--gap-L2);
+    position: relative;
+    top: var(--top-80);
+}
+
+.color-shoe
+{
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-L1);
+}
+
+.size-A
+{
+    width: var(--90px);
+    height: var(--84px);
+}
+
+.shoe-select
+{
+    min-width: var(--w-550px);
+    height: var(--h-630px);
+    padding-top: var(--pt-60px);
+}
+
+.Air-force
+{
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.top-description
+{
+    padding-top: var(--pt-25px);
+}
+
+
+/* article 2 */
+.article-2{
+    padding-left: var(--pl-5rem);
+}
+
+
+.article-2 > h2
+{
+    line-height: var(--lh-12rem);
+    font-size: var(--fs-12rem);
+    text-align: center;
+}
+
+.tp-col
+{
+    position: relative;
+    top: -30px;
+}
+
+textarea
+{
+    background-color: #c4c4c4;
+}
+
+/* article 3 */
+.article-3{
+    padding-left: var(--pl-5rem);
+}
+
+.log-name
+{
+    height: 50px;
+    width: 50px;   
+}
+
+
+.name-eben
+{
+    display: flex;
+    gap: var(--top-10);
+}
+
+.top-name-eben-1
+{
+    position: relative;
+    top: var(--top-20);
+}
+.top-name-eben-2
+{
+    position: relative;
+    top: var(--top-50);
+}
+
+.top-name-eben-3
+{
+    position: relative;
+    top: var(--top-80);
+}
+
+.eben{
+    position: relative;
+    top: var(--top-m7);
+}
+
+.etoile
+{
+    width: var(--w-150px);
+    height: var(--h-30px);
+}
+.star-perfect
+{
+    display: flex;
+    position: relative;
+    gap: var(--top-15);
+    top: var(--top-m25);
+    left: var(--top-50);
+}
+
+.sous-text-2
+{
+    padding-top: var(--pt-15px);
+}
+.sous-text-3
+{
+    padding-top: var(--pt-15px);
+}
+
+.av
+{
+    color: #00D300;
+}

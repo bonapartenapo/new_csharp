@@ -1,0 +1,43 @@
+/* partir footer */
+
+footer
+{
+  background-color: #D6DADE;
+  position: relative;
+  top: 7rem;
+  padding: 5rem
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.img-footer-1,.img-footer-2,.icone-footer {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.img-size {
+  height: 5rem;
+  width: 5rem;
+}
+
+.footer-nav,.contact-footer,.icone-footer
+{
+  line-height: 3rem;
+}
+
+.icone-footer {
+  position: relative;
+  top: 2.5rem;
+  gap: 2rem;
+}
+
+.copyright {
+  position: relative;
+  top: 5rem;
+  display: flex;
+  justify-content: center;
+}

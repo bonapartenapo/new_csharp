@@ -1,0 +1,69 @@
+/* partir index */
+.icone-menu-header
+{
+  width:  var(--w-40px);
+  height: var(--h-37px);
+}
+.img-timber
+{
+  width: var(--w-L28);
+  height: var(--h-L32);
+}
+.img-timber-2 {
+    width: var(--w-L24);
+  }
+
+.img-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+/* partir description-produit */
+.size-shoe-description
+{
+    height: var(--h-280px);
+    width: var(--w-300px);
+}
+
+/* partir panier */
+.commande-panier > div >img
+{
+    width:  var(--w-40px);
+    height: var(--h-37px);
+}
+
+.pop-des
+{
+    width: var(--w-L21);
+    height: var(--h-L21);
+}
+
+.ico-cercle-panier
+{
+    width: var(--w-35px);
+    height: var(--h-35px);
+}
+
+/* partie forgot-password */
+.img-forgot-mdp
+{
+    position: relative;
+    left: var(--left-L5);
+    width: 90%;
+    height: var(--h-L40);
+}
+
+
+/* partir login */
+.icon-L2
+{
+  width: var(--w-25px);
+}
+
+.size-img
+{
+    width: 400px;
+    height: 300px;
+}

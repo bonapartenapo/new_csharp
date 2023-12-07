@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+
+sm
+: écran mobile (640px et moins)
+md
+: écran tablette (entre 641px et 768px)
+lg
+: grand écran d'ordinateur portable ou petit ordinateur de bureau (entre 769px et 1024px)
+xl
+: grand ordinateur de bureau (entre 1025px et 1280 px)
+2xl
+: très grand ordinateur de bureau (1281 px ou plus)
+
+*/
+
+
+/* partir inxdex */
+
+/* header */
+.btn-icone-menu-header , .logo , .btn-header-responsive
+{
+    @apply hidden
+}
+
+@media (max-width: 639px) /* ici, sm s'applique lorsqu la taille de l'ecrant est < 640px(min-witdth) */
+{
+    .liste
+    {
+        @apply pl-10
+    }
+    .btn-icone-menu-header
+    {
+        @apply block
+    }
+}
+
+@screen sm /* ici, sm s'applique lorsqu la taille de l'ecrant est > 640px (max-width) */
+{
+    .logo
+    {
+        @apply block
+    }
+    .btn-header-responsive
+    {
+        @apply block
+    }
+}
+
+/* fin header */
+
+/* debut section */
+@media (max-width: 639px)
+{
+    .img-timber
+    {
+        width: 20rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .img-timber
+    {
+        min-width: 20rem;
+        height: 18rem;
+    }
+}
+
+
+
+@media (max-width: 1089px)
+{
+    body {
+        overflow-x: hidden;
+    }
+    .catego-complete-section-3 ,  .left-categories-section-3 ,  .direction-img
+    {
+        display: none;
+    }
+    .sous-text-section-3
+    {
+        position: relative;
+        top: -3rem;
+        right: 5rem;
+    }
+}
+@media (min-width: 460px) and (max-width: 770px)
+{
+
+    .shoe-section-3-index
+    {
+        min-width: var(--w-400px);
+        min-height: var(--h-300px);
+        position: relative;
+        top: 2rem;
+
+    }
+    .text-img-section-3
+    {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 2.5rem;
+        /* padding-left: 2rem; */
+
+        .chaussure-basket-section-3
+        {
+            position: relative;
+            right: 5rem;
+        } 
+
+
+    }
+    .text-article-section-3
+    {
+        font-size: 20px;
+    }
+    
+    .compteur-img-carousel
+    {
+        position: relative;
+        top: -12rem;
+        right: 2rem;
+    }
+    
+}
+
+@media (min-width: 771px) and (max-width: 1089px)
+{
+    .compteur-img-carousel
+    {
+        position: relative;
+        top: -5rem;
+    }
+    .chaussure-basket-section-3
+    {
+        position: relative;
+        right: 5rem;
+    }
+}
+
+/* partir card */
+.top-collection
+{
+    @apply grid max-w-2xl lg:max-w-7xl grid-cols-1 mx-auto py-7 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  
+            
+}
+
+
+/* partir description produit */
+/* .shoe-select
+{
+    @apply max-w-2xl lg:max-w-7xl sm:w-32 lg:w-52  xl:w-96
+} */
+.shoe-select{
+    width: 30rem;
+    padding-top: 122rem;
+}

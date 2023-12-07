@@ -1,0 +1,31 @@
+.section-register
+{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 12rem;
+
+}
+
+.top-div-identifier
+{
+    text-align:  center;
+}
+
+.dim-img-register
+{
+    position: relative;
+    top: 5rem;
+}
+
+.already-compte
+{
+    opacity: 0.5;
+}
+.top-already-compte
+{
+    padding-top: var(--pt-L1);
+}

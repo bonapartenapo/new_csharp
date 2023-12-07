@@ -1,0 +1,72 @@
+/* partir header */
+
+.header-dashed
+{
+   padding: var(--padding);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   vertical-align: middle;
+   height: var(--h-100px);
+
+
+   .link-header
+    {
+        display: flex;
+        align-items: center;
+         padding-left: 4rem;
+         margin-left: -80px;
+         /* margin-right: -20px; */
+        /* width: 800px; */
+    }
+
+}
+
+
+.text-link-head
+{
+   display: flex;
+   gap: 2rem;
+}
+
+.color-tutoriels
+{
+    color: var(--blue);
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.home,.jobs,.tutoriels,.coaching,.contact
+{
+    font-size: 24px;
+}
+/* fin header */
+
+.card-profile
+{
+    display: flex;
+    gap: var(--gap-L7);
+    padding: var(--p-L5);
+    line-height: 23px;
+    position: relative;
+    top: -3em;
+}
+
+.mes-info
+{
+    color: #241744;
+    width: var(--w-300px);
+}
+
+.top-card
+{
+    position: relative;
+    left: var(--left-3rem);
+    
+    line-height: var(--lh-L2);
+}

@@ -1,0 +1,15 @@
+body
+{
+    background-color: var(--bg-wideMode);
+    font-size: var(--19px);
+    color: var(--black-text);
+    font-family: 'Poppins';
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+img
+{
+    object-fit: cover;
+}
+

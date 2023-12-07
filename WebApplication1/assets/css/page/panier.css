@@ -1,0 +1,77 @@
+/* btn */
+
+
+
+.section-panier , .param-1 , .descript-article-panier , .top-cercle-couleur
+{
+    display: flex;
+}
+/* partir Mes commandes */
+.commande-panier > div > .val-param
+{
+    position: relative; 
+    left: var(--left-5px);
+}
+.descript-article-panier
+{
+    background: #FFFFFF;
+    box-shadow: 8px 8px 25px -9px rgba(0, 0, 0, 0.15);
+    height: var(--h-L21);
+    width: var(--w-L40);
+}
+
+.section-panier
+{
+    padding-top: 5rem;
+}
+
+/* modification du style du nom de la chaussure */
+
+
+.section-panier
+{
+    padding-left: var(--pl-5rem);
+    gap: var(--gap-L4); 
+}
+
+.qte
+{
+    border: 1px solid black;
+    width: 70px;
+    position: relative;
+    top: 20px;
+    text-align:  center;
+}
+
+.k12-panier
+{
+    position: relative;
+    top: 30px;
+}
+
+
+
+.descript-article-panier 
+{
+    gap: var(--gap-L2);
+}
+.top-cercle-couleur
+{
+    gap: var(--gap-L1);
+}
+
+.cercle-couleur
+{
+    padding-top: 1rem;
+}
+.poubel
+{
+    padding-left: 4rem;
+    height: 30px;
+}
+
+.frais , .sous-total
+{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,120 @@
+/* btn acceuil /
+/* header */
+.btn-sign-in
+{
+  /* background: #000000; */
+  border-radius: 5px;
+  /* background-color: red; */
+}
+
+.btn-header {
+  position: relative;
+  top: 0.5rem;
+  display: flex;
+  gap: 1.25rem;
+}
+
+.btn-sign-in {
+  width: 8rem;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.btn-login {
+  width: 8rem;
+  border-radius: 0.25rem;
+  background-color: #FFFFFF;
+}
+
+.btn-decouvrir
+{
+  display: flex;
+  justify-content: center;
+  height: 3.5rem;
+  width: var(--w-L11);
+   border-width: 1px;
+
+}
+
+.btn-prim
+{
+  border-width: 1px;
+  height: 3.5rem;
+  width: var(--w-L11);
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+/* partir panier */
+
+.btn-secondary
+{
+  box-sizing: border-box;
+  color: var(--white);
+  width: var(--w-130px);
+  height: var(--h-50px);
+  background: var(--btn-buy);
+  border: 1px solid rgba(var(--btn-buy));
+  border-radius: var(--rounded-8px);   
+}
+
+.btn-acheter-commande
+{
+    /* Btn/primary */
+    
+    
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    
+    position: relative;
+    width: var(--w-130px);
+    height: var(--h-50px);
+   
+    top: 20px;
+    color: var(--white);
+    
+    background: var(--btn-buy);
+    border: 1px solid rgba(var(--btn-buy));
+    border-radius: var(--rounded-8px);   
+}
+
+
+/* partir forgot-password */
+.send-forgot
+{
+  width: var(--w-170px);
+}
+
+
+
+/* partir login */
+.btn-third
+{
+    border: 1px solid rgb(209, 192, 192);
+    width: var(--w-L21);
+    border-radius: var(--rounded-5px);
+}
+
+
+
+/* partir profile */
+.btn-third-profile
+{
+    border-radius: 8px;
+    border-color: var(--third-color);
+    background: var(--third-color);
+    color: var(--white);
+}
+
+.btn-size-profile
+{
+  height: 39px;
+  width: 150px;
+}

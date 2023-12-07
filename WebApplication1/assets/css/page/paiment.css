@@ -1,0 +1,46 @@
+.body-paiment
+{
+    background-image: url(../../img/body/paiment/section/pop.png);
+    background-size: cover;
+    padding: var( --p-L5);
+    padding-left: var(--pl-10rem);
+    /* color: var(); */
+}
+
+.fashion-hub-p
+{
+    line-height: var(--lh-L5);
+}
+
+.top-p
+{
+    color: var(--white);
+}
+.Sous-total-p
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: var(--pt-L1);
+    
+}
+
+.form-p
+{
+    padding-top: var(--pt-L2);
+    line-height: var(--lh-L3);
+}
+
+.form-p > p
+{
+    color: var(--white);
+}
+
+.form-p > select
+{
+
+    width: 11rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+

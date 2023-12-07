@@ -1,0 +1,21 @@
+@import url(tools/variables.css);
+@import url(global/aide-tailwindcss.css);
+@import url(base/body.css);
+@import url(../css/animation/animation.css);
+
+@import url(../css/tools/title.css);
+@import url(../css/tools/btn.css);
+@import url(../css/tools/size-img.css);
+@import url(../css/tools/input.css);
+@import url(../tailwindcss/dist/global/responsive.css);
+
+@import url(../css/page/index.css);
+@import url(../css/page/produit.css);
+@import url(../css/page/panier.css);
+@import url(../css/page/description.css);
+@import url(../css/page/profil.css);
+@import url(../css/page/paiment.css);
+@import url(../css/page/login.css);
+@import url(../css/page/register.css);
+@import url(../css/page/forgot-password.css);
+@import url(../css/global/footer.css);

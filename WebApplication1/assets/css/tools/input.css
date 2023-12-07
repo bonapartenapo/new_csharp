@@ -1,0 +1,122 @@
+/* description-produit */
+.search-box {
+    display: flex;
+    padding-left: var(--pl-25rem);
+    position: relative;
+    top: var(--top-3rem);
+  }
+
+
+  .search-box > input[type="text"] {
+    padding-left: var(--pl-4rem);
+    width: var(--w-500px);
+    height: var(--h-45px);
+    background-image: url(../../img/body/produit/article/search.png);
+    background: rgba(224, 224, 224, 0.8);
+    border: 1px solid rgba(224, 224, 224, 0.8);
+    border-radius: var(--rounded-8px);
+  }
+  .search-box > img
+  {
+    position:  relative;
+    height: var(--h-35px);
+    width: var(--w-25px);
+    padding-top: var(--pt-11px);
+    left: var(--left-3rem);
+    
+  }
+
+
+  /* partir forgot password */
+
+  .Email-forgot-mdp > input[type="text"]
+  {
+    
+    background: rgba(224, 224, 224, 0.8);
+    border: 1px solid rgba(224, 224, 224, 0.8);
+    width: var(--w-400px);
+    height: var(--h-45px);
+    color: white;
+
+  }
+
+  .Email-forgot-mdp
+  {
+    padding-top: var(--pt-30px);
+   
+  }
+
+
+  /* partir register */
+  .zone-text-L2
+  {
+    border: 1px solid rgb(209, 192, 192);
+    width: var(--w-L18);
+    height: var(--h-40px);
+    border-radius: var(--rounded-5px);
+    padding-left: var(--pl-15px);
+  }
+
+
+
+
+  /* partir profile */
+
+.input-bg-gray
+{
+  background: var(--gray);
+  border: 1px solidvar(--gray);
+  border-radius: 5px;
+}
+
+
+.zone-text-profile
+{
+  height: 37px;
+  width:  300px;
+  padding-left: var(--pl-L1);
+}
+
+
+.pseudo-profile
+{
+    display: flex;
+    gap: var(--gap-L2);
+}
+
+.user-profile
+{
+    position: relative;
+    top: 1.5em;
+    color: #241744;
+}
+
+.password-profile
+{
+    display: flex;
+    gap: var(--gap-L2);
+
+      .zone-password-profile
+        {
+           width:  200px;
+           height: 35px;
+        }
+
+} 
+
+
+.top-textarea-profile
+{
+    padding-top: 4em;
+}
+
+.tel-profil
+{
+    padding-top: 3em;
+
+    .nber-profil
+    {
+        display: flex;
+        gap: 3em;
+    }
+}

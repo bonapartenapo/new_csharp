@@ -1,0 +1,26 @@
+.size-img
+{
+    margin: auto;
+    min-width: 400px;
+    height: 300px;
+    object-fit: cover; /*donne la vrai taille d'une img */
+}
+
+.top-collection
+{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.reveal
+{
+    opacity: 0;
+    transform: translateY(-30px);
+}
+.reveal-visible
+{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s;
+}
